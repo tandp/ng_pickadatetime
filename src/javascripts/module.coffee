@@ -1,0 +1,1 @@
+Module = angular.module('ngPickadatetime', ['ui.mask'])

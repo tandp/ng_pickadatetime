@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tests ngPickadatetime</title>
+    <link rel="stylesheet" href="../bower_components/pickadate/lib/themes/classic.css" />
+    <link rel="stylesheet" href="../bower_components/pickadate/lib/themes/classic.date.css" />
+    <script src="../bower_components/jquery/jquery.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/angular-ui-utils/mask.js"></script>
+    <script src="../bower_components/pickadate/lib/picker.js"></script>
+    <script src="../bower_components/pickadate/lib/picker.date.js"></script>
+    <script src="../dist/ngPickadatetime.js"></script>
+    <script>
+        angular.module("newAPP",["ngPickadatetime"]);
+    </script>
+</head>
+<body ng-app="newAPP">
+    <div class="inputs">
+          <input class="ngPickadatetime" name="date"
+            data-disable="disable"
+            data-minDate="minDate"
+            data-date="date"
+            value="2014-02-05T12:49:00.542Z">
+    </div>
+</body>
+</html>

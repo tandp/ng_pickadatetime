@@ -1,0 +1,17 @@
+{
+  "name": "ngPickadatetime",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "angular": "~1.2.11",
+    "angular-ui-utils": "bower-mask",
+    "pickadate": "~3.3.2"
+  },
+  "dependencies": {
+    "angular-mocks": "~1.2.11"
+  }
+}
