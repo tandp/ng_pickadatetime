@@ -92,7 +92,7 @@ Module.directive("ngPickadatetime", [
   "PickaDateTimeClass", "isValidDate", function(PickaDateTimeClass, isValidDate) {
     return {
       restrict: "AC",
-      template: "<div class='pickadatetime_wrapper'>" + "<input class='date-input' type='text'/>" + "<input class='time-input' type='text' data-mask='99:99' ng-model='modelTime'/>" + "<input type='hidden' name='{{ name }}' ng-value='day.value()'/>" + "</div>",
+      template: "<div class='pickadatetime_wrapper'>" + "<input class='date-input' type='text'/>" + "<input class='time-input' type='text' ui-mask='99:99' ng-model='modelTime'/>" + "<input type='hidden' name='{{ name }}' ng-value='day.value()'/>" + "</div>",
       replace: true,
       scope: {
         name: "@",

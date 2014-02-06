@@ -7,11 +7,11 @@
     "bower_components"
   ],
   "devDependencies": {
-    "angular": "~1.2.11",
-    "angular-ui-utils": "bower-mask",
-    "pickadate": "~3.3.2"
+    "angular-mocks": "~1.2.11"
   },
   "dependencies": {
-    "angular-mocks": "~1.2.11"
+    "angular": "~1.2.9",
+    "angular-ui-utils": "bower-mask",
+    "pickadate": "~3.3.2"
   }
 }
